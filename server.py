@@ -200,8 +200,6 @@ while not game_ended:
     
     your_turn = not your_turn
 
-
-# wait for client to process
 try:
     send_game_status(client_socket, game)
 except:
