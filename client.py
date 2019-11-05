@@ -20,7 +20,7 @@ def print_welcome(welcome_text):
             lines -= 1
         for j in range(i+1):
             print(welcome_text[j])
-        time.sleep(0.1)
+        time.sleep(0.3)
 
 
 def print_game(game):
